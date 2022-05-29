@@ -1,0 +1,10 @@
+def meanList (L):
+  mean = 0 
+  n = len (L)
+  for x in L: 
+    mean = x + mean 
+    mean = mean/n 
+  return mean
+d = {'student1': [14, 16, 18], 'students2': [12, 15, 17], 'student3': [16, 16, 13]} 
+d [key] = meanList(d [key])
+print ("The new dictionary is d =", d) 
