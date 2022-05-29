@@ -1,0 +1,5 @@
+import math
+if math.sin(60)==math.cos(60):
+  print('Same")
+ else:
+  print("Different")
