@@ -1,0 +1,5 @@
+def read(fn):
+        txt = open(fn)
+        print(txt.read())
+
+read('test.txt')
