@@ -1,0 +1,4 @@
+def power(num,po):
+  c=num**po
+  return c
+print(pow(2,3))
