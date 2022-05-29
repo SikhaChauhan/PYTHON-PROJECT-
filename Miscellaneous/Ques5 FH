@@ -1,0 +1,7 @@
+def long(fn):
+    with open(fn, 'r') as infile:
+              words = infile.read().split()
+    maxl = len(max(words, key=len))
+    return [word for word in words if len(word) == maxl]
+
+print(long('test.txt'))
