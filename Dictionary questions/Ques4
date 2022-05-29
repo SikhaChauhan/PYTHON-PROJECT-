@@ -1,0 +1,7 @@
+dictParity = dict()
+    for x in l:
+        if x%2 == 0:
+            dictParity[x] = 'Pair'
+        else:
+            dictParity[x] = 'Impair'
+    print(dictParity)
