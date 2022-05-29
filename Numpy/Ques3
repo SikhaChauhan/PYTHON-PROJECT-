@@ -1,0 +1,7 @@
+import numpy as np
+x1 = np.array(['Pycharm', 'Python', 'Jyoti', 'examples', 'hdmi'], dtype=np.str)
+print("\nOriginal Array:")
+print(x1)
+print("Number of ‘P’:")
+r = np.char.count(x1, "P")
+print(r)
