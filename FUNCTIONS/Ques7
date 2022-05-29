@@ -1,0 +1,4 @@
+def even(ll,ul):
+    for i in range(ll,ul+1):
+      if i %2==0:
+        print(i)
