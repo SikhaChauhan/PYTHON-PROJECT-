@@ -1,0 +1,7 @@
+T = input("Type a some text")
+listWords = T.split(' ')
+d= dict({})
+for word in listWords:
+    reverseWord = word[::-1]
+    d[word] = reverseWord
+print("The obtained dictionary is d = " , d)
