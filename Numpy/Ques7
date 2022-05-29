@@ -1,0 +1,8 @@
+import numpy as np
+x = np.array([' Sikha ', ' Saurabh  ', ' Mahi  ', '  Prince ' , ' Jatin '], dtype=np.str)
+print("Original Array:")
+print(x)
+stripped = np.char.strip(x)
+print("\nRemove the leading and trailing whitespaces: ", stripped)
+
+Q5. Write a NumPy program to split the element of a given array with spaces.
