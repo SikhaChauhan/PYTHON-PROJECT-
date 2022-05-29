@@ -1,0 +1,5 @@
+dict = {'a1': [25, 19, 20, 30], 'a2': [10, 24, 18, 23], 'a3': [17, 3, 12, 1], 'a4': [32,4,27,19]}
+for key , value in dict.items():
+    value.sort()
+    dict[key] = value
+print("The new dictionary is dict = " , dict)
