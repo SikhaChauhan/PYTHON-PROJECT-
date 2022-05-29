@@ -1,0 +1,7 @@
+def sumnum(num):
+  c=0
+  while num>0:
+    s=n%10
+    c=c+s
+    n=n//10
+   return c
