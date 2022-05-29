@@ -1,5 +1,5 @@
-d= {'a1': [25, 19, 20, 30], 'a2': [10, 24, 18, 23], 'a3': [17, 3, 12, 1], 'a4': [32,4,27,19]}
-for key , value in d.items():
+A= {'a1': [25, 19, 20, 30], 'a2': [10, 24, 18, 23], 'a3': [17, 3, 12, 1], 'a4': [32,4,27,19]}
+for key , value in A.items():
     value.sort()
-    d[key] = value
-print("The new dictionary is d = " , d)
+    A[key]=value
+print("The new dictionary is A = " , A)
