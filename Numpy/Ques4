@@ -1,0 +1,7 @@
+import numpy as np
+x = np.array(['27', '119', '2349', '12345', '125'], dtype=np.str)
+print("\nOriginal Array:")
+print(x)
+r = np.char.zfill(x, 5)
+print("\nNumeric string of 5 digits with zeros:")
+print(r)
